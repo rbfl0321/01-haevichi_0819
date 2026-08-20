@@ -2,50 +2,67 @@
 /* 모든요소의 여백제거 */
 *,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* li장식제거 */
-li{
+li {
     list-style: none;
 }
 
 /* a밑줄제거,글자색 */
-a{
+a {
     color: inherit;
-    text-decoration: none ;
+    text-decoration: none;
 }
+
 /* img,video */
-img,video{
-   max-width: 100%;
-   vertical-align: middle;
-   /* width: 100%; */
+img,
+video {
+    max-width: 100%;
+    /* width:100%; */
+    vertical-align: middle;
 }
+
 /* em,i,address */
-em,i,address{
+em,
+i,
+address {
     font-style: normal;
 }
-/* button테두리제거,배경제거,커서마우스 */
-button{
+
+/* button 테두리제거, 배경제거,커서마우스 */
+button {
     border: 0;
     background: none;
     cursor: pointer;
 }
-/* blind 화면에서 보이지는 않지만 리더기를 통해서
-읽혀지도록*/
-.blind{
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+}
+
+/* blind  화면에서 보이지는 않지만 
+리더기를 통해서 읽혀지도록*/
+.blind {
     position: absolute;
     top: -9999px;
 }
+
 /* iframe */
-iframe{
-    border:0;
+iframe {
+    border: 0;
 }
+
 /* skip */
-.skip-nav{
+.skip-nav {
     position: fixed;
     top: -100px;
     left: 0;
@@ -55,12 +72,14 @@ iframe{
     color: #fff;
     text-align: center;
 }
-.skip-nav a{
+
+.skip-nav a {
     display: block;
     padding: 14px 20px;
 }
-.skip-nav:focus-within{
+
+.skip-nav:focus-within {
     top: 0;
 }
-/* focus: 자신한테 포커스가 들어감
-   focus-within: 자신뿐아니라 후손한테도 들어감 */
+/* focus : 자신한테 포커스가 들어간거
+focus-within : 자신뿐 아니라 후손한테 */
