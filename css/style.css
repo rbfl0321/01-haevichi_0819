@@ -54,7 +54,7 @@ body {
 /* header */
 header {
     position: fixed;
-    background-color: rgba(0, 0, 255, 0.2);
+    /* background-color: rgba(0, 0, 255, 0.2); */
     width: 100%;
     /* padding: 18px 0 0; */
     z-index: 10000;
@@ -326,7 +326,7 @@ header:hover .lang-btn>a::after{
 padding 위아래20 좌우 32*/
 .reservation-wrap{
     width: 1440px;
-    background: rgba(0, 0, 0, 0.5);
+    /* background: rgba(0, 0, 0, 0.5); */
     position: absolute;
     left: 50%;
     bottom: 0;
