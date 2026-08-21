@@ -257,7 +257,7 @@ header:hover .lang-btn>a::after {
 .main-slider-list>li .text-box{
     position: absolute;
     left: 50%;
-    bottom: 250px;
+    bottom: 150px;
     color: #fff;
     /* background-color: rgba(0,225,255,0.2); */
     width: 1440px;
@@ -384,7 +384,7 @@ padding 위아래20 좌우 32*/
 /* main */
 /* main 공통영역 */
 section{
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
 /* title-box */
