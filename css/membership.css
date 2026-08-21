@@ -1,0 +1,53 @@
+.sub-visual{
+    position:relative;
+    height:480px;
+    overflow:hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.sub-visual img{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.sub-visual::before{
+    content: "";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.25);
+    z-index: -1;
+}
+
+.sub-visual .inner{
+    position:relative;
+    z-index: 1;
+    text-align: center;    
+}
+
+.sub-visual h1{
+    font-family:"Minion", serif;
+    font-weight: 400;
+    font-size:3.5em;
+    letter-spacing:0.08em;
+    color:#ffff;
+    text-transform:upppercase;
+}
+
+main{
+    padding-top : px;
+}
+.membership-detail-wrap{
+margin-top : 120px;
+padding-bottom:160px;
+}
+
+.membership-detail-wrap .title-box{
+    display:block;
+    margin-bottom:56px;
+}

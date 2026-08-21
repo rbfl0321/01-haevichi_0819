@@ -416,10 +416,11 @@ section{
 
 .title-box>div .more-btn>a{
     color: var(--Primary-color);
-    /* background: url(../images/Icon/Icon/); */
-     line-height: 1.5;
-    font-size:12px;
+    /* background: url(../images/Icon/Icon/arrow-more.png) no-repeat center; */
+    line-height: 1.5;
+    font-size: 12px;
     letter-spacing: 0.02em;
+    padding-right: 300px;
 }
 
 /* tab-menu */
